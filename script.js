@@ -62,8 +62,8 @@ cardtextlatlng.innerHTML= "latlng :" + " "  + element.latlng;
 
 
 const cardbtn = document.createElement("button");
-cardbtn.className="btn";
-cardbtn.innerHTML="click to go"
+cardbtn.className="btn-primary";
+cardbtn.innerHTML="click to get wheather"
 card.appendChild(cardbtn);
 
 
@@ -88,7 +88,7 @@ function (){
       
       <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
+  click again🌧️⛈️🌈
 </button>
 
 <!-- Modal -->
